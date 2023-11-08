@@ -1,0 +1,149 @@
+.bookingpage {
+  background-color: #495e57;
+  padding-bottom: 20px;
+}
+.formPersonalInfo {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+.formName {
+  margin: 20px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+.formName > label {
+  color: white;
+}
+
+.formPhone {
+  margin: 20px;
+  width: 177px;
+  display: flex;
+  flex-direction: column;
+}
+.formPhone > label {
+  color: white;
+}
+
+.formEmail {
+  margin: 20px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+.formEmail > label {
+  color: white;
+}
+
+.formDateTime {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.formDate {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.formDate > label {
+  color: white;
+}
+
+.formTime {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.formTime > label {
+  color: white;
+}
+
+.formTime > select {
+  width: 60px;
+  background-color: white;
+}
+
+.formNumber {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.formNumber > label {
+  color: white;
+}
+.formNumber > input {
+  width: 40px;
+  text-align: center;
+  background-color: white;
+}
+
+.formOccasion {
+  margin: 20px;
+}
+.formOccasion > label {
+  color: white;
+}
+
+button {
+  display: block;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  width: 80px;
+  font-family: "Courier New", Courier, monospace;
+  padding: 10px;
+  border: 1px solid #495e57;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f4ce14;
+  border-radius: 30%;
+}
+button:hover {
+  cursor: pointer;
+  font-family: "Courier New", Courier, monospace;
+  padding: 10px;
+  border: 1px solid #495e57;
+  font-weight: bold;
+  background-color: #edefee;
+  border-radius: 30%;
+}
+
+@media (max-width: 700px) {
+  .formPersonalInfo {
+    display: flex;
+    flex-direction: column;
+  }
+  .formName {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .formPhone {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .formEmail {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .formDate {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .tableInfo {
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+  }
+}
+
+@media (max-width: 600px) {
+  .tableInfo {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+  }
+}

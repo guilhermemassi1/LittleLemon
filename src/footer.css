@@ -1,0 +1,30 @@
+.footer {
+  margin-top: 20px;
+  width: 100%;
+  background-color: white;
+  position: absolute;
+}
+.footerImg {
+  background-color: white;
+  padding-top: 10px;
+}
+.footer > h1 {
+  text-align: center;
+  font-size: 10px;
+  font-weight: 100;
+  background-color: white;
+}
+.footer > h2 {
+  font-size: 10px;
+  text-align: center;
+  font-weight: 100;
+  padding-bottom: 10px;
+  background-color: white;
+}
+.footerImg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  margin-bottom: 20px;
+}
